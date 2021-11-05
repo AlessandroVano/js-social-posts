@@ -19,40 +19,40 @@
         author: 'Phil Mangione',
         time: '4 mesi fa',
         text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        image: 'https://unsplash.it/600/300?image=171',
+        image: 'https://picsum.photos/602/300',
         numLike: '80',
     },
     {
         profile: 'https://unsplash.it/300/300?image=15',
-        author: 'Phil Mangione',
-        time: '4 mesi fa',
+        author: 'Gray Lum',
+        time: '5 mesi fa',
         text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        image: 'https://unsplash.it/600/300?image=171',
-        numLike: '80',
+        image: 'https://picsum.photos/603/300',
+        numLike: '50',
     },
     {
         profile: 'https://unsplash.it/300/300?image=15',
-        author: 'Phil Mangione',
+        author: 'Federico Chiesa',
         time: '4 mesi fa',
         text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        image: 'https://unsplash.it/600/300?image=171',
-        numLike: '80',
+        image: 'https://picsum.photos/604/300',
+        numLike: '10',
     },
     {
         profile: 'https://unsplash.it/300/300?image=15',
-        author: 'Phil Mangione',
+        author: 'Alessandro Franco',
         time: '4 mesi fa',
         text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        image: 'https://unsplash.it/600/300?image=171',
-        numLike: '80',
+        image: 'https://picsum.photos/605/300',
+        numLike: '3',
     },
     {
         profile: 'https://unsplash.it/300/300?image=15',
-        author: 'Phil Mangione',
+        author: 'Filippo Longari',
         time: '4 mesi fa',
         text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        image: 'https://unsplash.it/600/300?image=171',
-        numLike: '80',
+        image: 'https://picsum.photos/606/300',
+        numLike: '123',
     },
     
    
@@ -81,7 +81,7 @@
 function getFullPosts(posts, postsContainer){
     for(let i = 0; i <posts.length; i++ ) {
         const numPost = posts[i];
-        postsContainer.innerHtml += `
+        postsContainer.innerHTML += `
         <div class="post">
             <div class="post__header">
                 <div class="post-meta">                    
